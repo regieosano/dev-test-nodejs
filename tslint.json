@@ -5,7 +5,9 @@
     "tslint-config-security",
     "tslint-config-prettier"
   ],
-  "jsRules": {},
+  "jsRules": {  "max-line-length": {
+    "options": [120]
+}},
   "rules": {
     "object-literal-sort-keys": {
       "options": "match-declaration-order"
